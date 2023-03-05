@@ -15,6 +15,15 @@ public class CheckboxAssignment {
         driver.findElement(By.cssSelector(".fsw_inputBox.dates.inactiveWidget")).click();
         Thread.sleep(2000);
         driver.findElement(By.cssSelector(".class=DayPicker-Day.DayPicker-Day--selected.DayPicker-Day--today")).click();
+
+        //dfdsfs
+
+        System.out.println("Devbranch 1");
+        System.out.println("Devbranch 1");
+        System.out.println("Devbranch 1");
+        System.out.println("Devbranch 1");
+        System.out.println("Devbranch 1");
+
 //        driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 //        System.out.println("Number of checkboxes are:: " + driver.findElements(By.xpath("//div[@id='checkbox-example'] //input[@type='checkbox']")).size());
 
