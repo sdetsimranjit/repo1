@@ -16,6 +16,18 @@ public class AAWAZSignUP {
             System.out.println("postJira");
             System.out.println("postJira2");
             System.out.println("postJir3");
+
+            //fdsfdsfs
+            //dfdsfsdf
+
+            System.out.println("Simranjit");
+            System.out.println("Simranjit");
+            System.out.println("Simranjit");
+            System.out.println("Simranjit");
+            System.out.println("Simranjit");
+
+
+
             Thread.sleep(2000);
             driver.findElement(By.xpath("//input[@placeholder='Robert']")).sendKeys("Simranjit"); //FirstName
             driver.findElement(By.xpath("//input[@placeholder='Kriyo']")).sendKeys("Test"); //LastName
