@@ -13,6 +13,9 @@ public class AAWAZSignUP {
         for (int i=1;i<=10;i++) {
             driver.get("https://stage.tradeaawaz.com/register");
             String email = "aawazdemo" + i + "@yopmail.com";
+            System.out.println("postJira");
+            System.out.println("postJira2");
+            System.out.println("postJir3");
             Thread.sleep(2000);
             driver.findElement(By.xpath("//input[@placeholder='Robert']")).sendKeys("Simranjit"); //FirstName
             driver.findElement(By.xpath("//input[@placeholder='Kriyo']")).sendKeys("Test"); //LastName
